@@ -1,0 +1,10 @@
+# Memo
+
+Extract filename and extension in bash
+
+    filename=$(basename "$fullfile")
+    extension="${filename##*.}"
+    filename="${filename%.*}"
+
+
+
